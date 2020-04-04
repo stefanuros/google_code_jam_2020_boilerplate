@@ -15,7 +15,7 @@ let rl = readline.createInterface({
 });
 
 rl.on('line', function (line) {
-    try {
+
     if(numTestCases === null) {
         numTestCases = parseInt(line);
     }
@@ -38,10 +38,6 @@ rl.on('line', function (line) {
     
     if(!isTestCase && curTestCase === numTestCases) {
         runTestCases();
-    }
-    
-    } catch(e) {
-        console.log(e);
     }
 });
 
