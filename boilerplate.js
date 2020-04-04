@@ -49,5 +49,5 @@ let runTestCases = () => {
 
 let solve = (matrix) => {
     // Solve the problem here and log the console.
-    console.log(matrix);
+    return `${k} ${r} ${c}`;
 }
