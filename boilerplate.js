@@ -47,7 +47,7 @@ rl.on('line', function (line) {
 
 let runTestCases = () => {
     for(let i = 1; i <= numTestCases; i++) {
-        solve(testCases[i-1]);
+        console.log("Case #" + i + ": " + solve(testCases[i-1]));
     }
 }
 
